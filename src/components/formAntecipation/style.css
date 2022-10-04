@@ -1,7 +1,20 @@
+input {
+  background: #ffffff;
+  border: 1px solid #dde6e9;
+  border-radius: 4px;
+  height: 37px;
+}
+select {
+  background: #ffffff;
+  border: 1px solid #dde6e9;
+  border-radius: 4px;
+  height: 37px;
+}
+
 .formBox {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 41px;
   gap: 22px;
 }
 .titleForm {
@@ -23,12 +36,7 @@
   color: #656565;
   margin-bottom: 6px;
 }
-.inputsForm {
-  background: #ffffff;
-  border: 1px solid #dde6e9;
-  border-radius: 4px;
-  height: 37px;
-}
+
 .installmentsSpan {
   font-family: "SourceSansPro", sans-serif;
   font-size: 11px;

@@ -7221,7 +7221,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.8.1:
+prop-types@^15.5.6, prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7369,6 +7369,11 @@ react-hook-form@^7.30.0:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.36.1.tgz#82a311fe8cbe75e689fd4529f083b7c983da6520"
   integrity sha512-EbYYkCG2p8ywe7ikOH2l02lAFMrrrslZi1I8fqd8ifDGNAkhomHZQzQsP6ksvzrWBKntRe8b5L5L7Zsd+Gm02Q==
 
+react-intl-currency-input@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/react-intl-currency-input/-/react-intl-currency-input-0.2.6.tgz#d71396a9db478fa5341ac562af2fd9c20afb7683"
+  integrity sha512-As8Kg3m9BKwD4liefx/gxG6Dge/8GjdZQBDVlwUUxrgtqWUkRNvRj9Iy4pNx4+o1xpXaEt+gfjtzO6r8uTNBlg==
+
 react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -7471,6 +7476,13 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-text-mask@5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/react-text-mask/-/react-text-mask-5.4.3.tgz#991efb4299e30c2e6c2c46d13f617169463e0d2d"
+  integrity sha512-IQ26CO6YMhc2FBRxLVnckBEDkuMvBQOiHBeAxWdZzoqMMOQvGG6vrVW1Rv6RtqOYsqVQaQd+6zYDW2tEM8VXxA==
+  dependencies:
+    prop-types "^15.5.6"
 
 react-toastify@^8.2.0:
   version "8.2.0"
@@ -8384,6 +8396,11 @@ test-exclude@^6.0.0:
     "@istanbuljs/schema" "^0.1.2"
     glob "^7.1.4"
     minimatch "^3.0.4"
+
+text-mask-addons@3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/text-mask-addons/-/text-mask-addons-3.8.0.tgz#17b61ef665a4f36811f2ea1f01a223b4be61ab26"
+  integrity sha512-VSZSdc/tKn4zGxgpJ+uNBzoW1t472AoAFIlbw1K7hSNXz0DfSBYDJNRxLqgxOfWw1BY2z6DQpm7g0sYZn5qLpg==
 
 text-table@^0.2.0:
   version "0.2.0"

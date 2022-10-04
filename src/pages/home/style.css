@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -18,4 +19,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .boxHome {
+    flex-direction: column;
+  }
+  .containerAntecipation {
+    width: 85%;
+    height: 420px;
+  }
+  .containerResultAntecipation {
+    width: 85%;
+  }
 }
