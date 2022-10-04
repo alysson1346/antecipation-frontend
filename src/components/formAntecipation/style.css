@@ -1,0 +1,42 @@
+.formBox {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 22px;
+}
+.titleForm {
+  font-family: "SourceSansPro", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #656565;
+  margin: 0px;
+}
+.divOneInput {
+  display: flex;
+  flex-direction: column;
+}
+.labelsForm {
+  font-family: "SourceSansPro", sans-serif;
+  font-weight: 600px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #656565;
+  margin-bottom: 6px;
+}
+.inputsForm {
+  background: #ffffff;
+  border: 1px solid #dde6e9;
+  border-radius: 4px;
+  height: 37px;
+}
+.installmentsSpan {
+  font-family: "SourceSansPro", sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  color: #cecece;
+}
+.errorsYup {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+}
