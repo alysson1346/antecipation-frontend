@@ -1,0 +1,21 @@
+.boxHome {
+  background-color: #f5f7fa;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerAntecipation {
+  width: 377px;
+  height: 389px;
+  background-color: white;
+}
+.containerResultAntecipation {
+  width: 231px;
+  height: 389px;
+  background-color: #d1dce3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
