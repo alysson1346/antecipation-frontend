@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Documentação Projeto Antecipation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tabela de Conteúdos
 
-## Available Scripts
+- [Documentação Projeto Antecipation](#documentação-projeto-antecipation)
 
-In the project directory, you can run:
+  - [Tabela de Conteúdos](#tabela-de-conteúdos)
+  - [1. Visão Geral](#1-visão-geral)
+  - [2. Layout](#2-layout)
+  - [3. Início Rápido](#3-início-rápido)
+    - [3.1. Instalando Dependências](#31-instalando-dependências)
+    - [3.2. Variáveis de Ambiente](#32-variáveis-de-ambiente)
+  - [4. Sobre a Api](#4-sobre-a-api)
 
-### `yarn start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 1. Visão Geral
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visão geral do projeto, um pouco das tecnologias usadas.
 
-### `yarn test`
+Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Foi utilizado no projeto as seguintes Tecnologias:
 
-### `yarn build`
+- [React]
+- [Axios]
+- [useForm]
+- [Yup]
+- [React-Router-Dom]
+- [Toastify]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 2. Layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Layout do projeto:
 
-### `yarn eject`
+## ![](src/assets/img/layout.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 3. Início Rápido
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[ Voltar para o topo ](#tabela-de-conteúdos)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3.1. Instalando Dependências
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone o projeto em sua máquina e instale as dependências com o comando:
 
-## Learn More
+```shell
+yarn
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3.2. Variáveis de Ambiente
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Rodo o comando para rodar o projeto em sua máquina local:
 
-### Code Splitting
+```
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 4. Sobre a Api
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para mais informações sobre o teste e sobre a api clique no link:
+https://github.com/hashlab/hiring/blob/master/challenges/pt-br/front-challenge.md
